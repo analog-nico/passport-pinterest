@@ -27,7 +27,7 @@ The Pinterest authentication strategy authenticates users using a Pinterest acco
 passport.use(new PinterestStrategy({
         clientID: PINTEREST_APP_ID,
         clientSecret: PINTEREST_APP_SECRET,
-        scope: 'read_public read_relationships',
+        scope: ['read_public', 'read_relationships'],
         callbackURL: "https://localhost:3000/auth/pinterest/callback"
     },
     function(accessToken, refreshToken, profile, done) {

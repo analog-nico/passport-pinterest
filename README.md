@@ -3,16 +3,6 @@
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Pinterest](https://www.pinterest.com) using the OAuth 2.0 API.
 
----
-
-**Attention: Not production ready!** Pinterest apps created by yourself don't seem to work at this time.
-
-Maybe you can help:
-- https://twitter.com/analog_nico/status/647814422250057729
-- http://stackoverflow.com/questions/32798760/pinterests-official-oauth2-flow-seemingly-returns-an-invalid-access-token
-
----
-
 [![Build Status](https://travis-ci.org/analog-nico/passport-pinterest.svg?branch=master)](https://travis-ci.org/analog-nico/passport-pinterest) [![Coverage Status](https://coveralls.io/repos/analog-nico/passport-pinterest/badge.png)](https://coveralls.io/r/analog-nico/passport-pinterest?branch=master) [![Dependency Status](https://david-dm.org/analog-nico/passport-pinterest.svg)](https://david-dm.org/analog-nico/passport-pinterest)
 
 This module lets you authenticate using Pinterest in your Node.js applications. By plugging into Passport, Pinterest authentication can be easily and unobtrusively integrated into any application or framework that supports [Connect](http://www.senchalabs.org/connect/)-style middleware, including [Express](http://expressjs.com/).
@@ -88,6 +78,9 @@ If you want to debug a test you should use `gulp test-without-coverage` to run a
 
 ## Change History
 
+- v0.1.0 (2015-09-28)
+    - Verified successfully that the authentication is working
+    - No code changes
 - v0.0.1 (2015-09-26)
     - Alpha release for people who want to help finding the bug mentioned at the top
 

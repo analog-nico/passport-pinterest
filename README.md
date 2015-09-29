@@ -78,6 +78,8 @@ If you want to debug a test you should use `gulp test-without-coverage` to run a
 
 ## Change History
 
+- v0.2.0 (2015-09-29)
+    - Returning profile with more fields
 - v0.1.0 (2015-09-28)
     - Verified successfully that the authentication is working
     - No code changes

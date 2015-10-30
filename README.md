@@ -78,6 +78,8 @@ If you want to debug a test you should use `gulp test-without-coverage` to run a
 
 ## Change History
 
+- v0.3.0 (2015-10-30)
+    - Changed default session key name from "oauth2:api.pinterest.com" to "oauth2:pinterest" because the dot made saving the session in MongoDB impossible
 - v0.2.0 (2015-09-29)
     - Returning profile with more fields
 - v0.1.0 (2015-09-28)

@@ -27,6 +27,7 @@
     "test": "node_modules/.bin/gulp ci"
   },
   "dependencies": {
+    "lodash": "^4.13.1",
     "passport-oauth": "1.0.x",
     "pkginfo": "^0.4"
   },

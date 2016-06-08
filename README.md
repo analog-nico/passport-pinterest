@@ -1,11 +1,10 @@
 # Passport-Pinterest
 
-[Passport](https://github.com/jaredhanson/passport) strategy for authenticating
-with [Pinterest](https://www.pinterest.com) using the OAuth 2.0 API.
+[Passport](https://github.com/jaredhanson/passport) strategy for authenticating with [Pinterest](https://www.pinterest.com) using the OAuth 2.0 API.
 
-[![Build Status](https://travis-ci.org/analog-nico/passport-pinterest.svg?branch=master)](https://travis-ci.org/analog-nico/passport-pinterest)
-[![Coverage Status](https://coveralls.io/repos/analog-nico/passport-pinterest/badge.png)](https://coveralls.io/r/analog-nico/passport-pinterest?branch=master)
-[![Dependency Status](https://david-dm.org/analog-nico/passport-pinterest.svg)](https://david-dm.org/analog-nico/passport-pinterest)
+[![Build Status](https://img.shields.io/travis/analog-nico/passport-pinterest/master.svg?style=flat-square)](https://travis-ci.org/analog-nico/passport-pinterest)
+[![Coverage Status](https://img.shields.io/coveralls/analog-nico/passport-pinterest.svg?style=flat-square)](https://coveralls.io/r/analog-nico/passport-pinterest)
+[![Dependency Status](https://img.shields.io/david/analog-nico/passport-pinterest.svg?style=flat-square)](https://david-dm.org/analog-nico/passport-pinterest)
 
 This module lets you authenticate using Pinterest in your Node.js applications. By plugging into Passport, Pinterest authentication can be easily and unobtrusively integrated into any application or framework that supports [Connect](http://www.senchalabs.org/connect/)-style middleware, including [Express](http://expressjs.com/).
 

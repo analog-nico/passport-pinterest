@@ -84,6 +84,7 @@ If you want to debug a test you should use `gulp test-without-coverage` to run a
     - Allowing to pass custom `options.state` string
       *(Thanks to @cvinson for [pull request #2](https://github.com/analog-nico/passport-pinterest/pull/2))*
     - Improved input validation
+    - Added node.js v6 to CI build
     - Updated dependencies
 - v0.3.0 (2015-10-30)
     - Changed default session key name from "oauth2:api.pinterest.com" to "oauth2:pinterest" because the dots made saving the session in MongoDB impossible

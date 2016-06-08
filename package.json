@@ -27,22 +27,22 @@
     "test": "node_modules/.bin/gulp ci"
   },
   "dependencies": {
-    "pkginfo": "0.3.x",
-    "passport-oauth": "1.0.x"
+    "passport-oauth": "1.0.x",
+    "pkginfo": "^0.4"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "devDependencies": {
-    "chai": "3.3.x",
+    "chai": "3.5.x",
     "chalk": "1.1.x",
     "gulp": "3.9.x",
     "gulp-coveralls": "0.1.x",
     "gulp-istanbul": "0.10.x",
-    "gulp-jshint": "1.11.x",
-    "gulp-mocha": "2.1.x",
-    "jshint-stylish": "2.0.x",
-    "rimraf": "2.4.x",
-    "run-sequence": "1.1.x"
+    "gulp-jshint": "2.0.x",
+    "gulp-mocha": "2.2.x",
+    "jshint-stylish": "2.2.x",
+    "rimraf": "2.5.x",
+    "run-sequence": "1.2.x"
   }
 }

@@ -3,7 +3,9 @@
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Pinterest](https://www.pinterest.com) using the OAuth 2.0 API.
 
-[![Build Status](https://travis-ci.org/analog-nico/passport-pinterest.svg?branch=master)](https://travis-ci.org/analog-nico/passport-pinterest) [![Coverage Status](https://coveralls.io/repos/analog-nico/passport-pinterest/badge.png)](https://coveralls.io/r/analog-nico/passport-pinterest?branch=master) [![Dependency Status](https://david-dm.org/analog-nico/passport-pinterest.svg)](https://david-dm.org/analog-nico/passport-pinterest)
+[![Build Status](https://travis-ci.org/analog-nico/passport-pinterest.svg?branch=master)](https://travis-ci.org/analog-nico/passport-pinterest)
+[![Coverage Status](https://coveralls.io/repos/analog-nico/passport-pinterest/badge.png)](https://coveralls.io/r/analog-nico/passport-pinterest?branch=master)
+[![Dependency Status](https://david-dm.org/analog-nico/passport-pinterest.svg)](https://david-dm.org/analog-nico/passport-pinterest)
 
 This module lets you authenticate using Pinterest in your Node.js applications. By plugging into Passport, Pinterest authentication can be easily and unobtrusively integrated into any application or framework that supports [Connect](http://www.senchalabs.org/connect/)-style middleware, including [Express](http://expressjs.com/).
 
@@ -78,8 +80,13 @@ If you want to debug a test you should use `gulp test-without-coverage` to run a
 
 ## Change History
 
+- v0.4.0 (2016-06-08)
+    - Allowing to pass custom `options.state` string
+      *(Thanks to @cvinson for [pull request #2](https://github.com/analog-nico/passport-pinterest/pull/2))*
+    - Improved input validation
+    - Updated dependencies
 - v0.3.0 (2015-10-30)
-    - Changed default session key name from "oauth2:api.pinterest.com" to "oauth2:pinterest" because the dot made saving the session in MongoDB impossible
+    - Changed default session key name from "oauth2:api.pinterest.com" to "oauth2:pinterest" because the dots made saving the session in MongoDB impossible
 - v0.2.0 (2015-09-29)
     - Returning profile with more fields
 - v0.1.0 (2015-09-28)

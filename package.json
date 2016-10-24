@@ -1,6 +1,6 @@
 {
   "name": "passport-pinterest",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Pinterest authentication strategy for Passport.",
   "keywords": [
     "passport",

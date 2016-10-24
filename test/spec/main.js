@@ -38,24 +38,6 @@ describe('Passport-Pinterest', function () {
 
             new PinterestStrategy({
                 clientID: '1234',
-                state: false
-            }, function () {});
-
-        }).to.throw('Please pass a string to options.state');
-
-        expect(function () {
-
-            new PinterestStrategy({
-                clientID: '1234',
-                state: ''
-            }, function () {});
-
-        }).to.throw('Please pass a string to options.state');
-
-        expect(function () {
-
-            new PinterestStrategy({
-                clientID: '1234',
                 state: 'abcd'
             }, function () {});
 

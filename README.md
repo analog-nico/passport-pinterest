@@ -29,7 +29,8 @@ passport.use(new PinterestStrategy({
         clientID: PINTEREST_APP_ID,
         clientSecret: PINTEREST_APP_SECRET,
         scope: ['read_public', 'read_relationships'],
-        callbackURL: "https://localhost:3000/auth/pinterest/callback"
+        callbackURL: "https://localhost:3000/auth/pinterest/callback",
+        state: true
     },
     function(accessToken, refreshToken, profile, done) {
         User.findOrCreate({ pinterestId: profile.id }, function (err, user) {
@@ -79,6 +80,9 @@ If you want to debug a test you should use `gulp test-without-coverage` to run a
 
 ## Change History
 
+- v1.0.0 (2016-10-24)
+    - **Breaking Change**: In order to support custom `state` values, the default `state` handling by Passport is not activated by default anymore. Please use `new PinterestStrategy({ state: true, ... })` to get the old behavior.
+      *(Thanks to @somprabhsharma for [issue #3](https://github.com/analog-nico/passport-pinterest/issues/3) and [pull request #4](https://github.com/analog-nico/passport-pinterest/pull/4))*
 - v0.4.0 (2016-06-08)
     - Allowing to pass custom `options.state` string
       *(Thanks to @cvinson for [pull request #2](https://github.com/analog-nico/passport-pinterest/pull/2))*

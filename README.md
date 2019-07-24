@@ -1,3 +1,5 @@
+**WARNING**: This repository is not maintained anymore.
+
 # Passport-Pinterest
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating with [Pinterest](https://www.pinterest.com) using the OAuth 2.0 API.
